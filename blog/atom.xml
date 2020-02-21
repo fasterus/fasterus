@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://fasterus.org/blog</id>
+    <title>Fasterus Blog</title>
+    <updated>2020-02-21T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://fasterus.org/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Fasterus news and events.</subtitle>
+    <logo>https://fasterus.org/img/logo.svg</logo>
+    <rights>Copyright © 2020 Fasterus</rights>
+    <entry>
+        <title type="html"><![CDATA[First step]]></title>
+        <id>https://fasterus.org/blog/2020/02/21/first-step.html</id>
+        <link href="https://fasterus.org/blog/2020/02/21/first-step.html"/>
+        <updated>2020-02-21T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Neil Armstrong said:</p> <pre><code class="hljs css language-text">That's one small step for a man, one giant leap for mankind </code></pre> <p>Our project is certainly not as grand as the conquest of the moon. But we are taking our first step and hope for your support. Our story began on May 14, 2018, I starte...</p>]]></summary>
+        <author>
+            <name>Denis Kurilenko</name>
+            <email/>
+            <uri>http://twitter.com/webdesus</uri>
+        </author>
+    </entry>
+</feed>
