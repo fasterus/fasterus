@@ -1,0 +1,208 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $myFont;
+}
+
+a {
+    font-family: $myFont;
+    color: $styleColor;
+}
+
+a:hover {
+    color: $hoverTextColor;
+    text-decoration: none;
+}
+
+.fixedHeaderContainer header .headerTitle,
+.fixedHeaderContainer header .headerTitleWithLogo{
+    color: #3a4348;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1em;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.fixedHeaderContainer a h3{
+    color: red;
+    font-family: Poppins,Arial,sans-serif;
+}
+
+.navigationSlider .slidingNav ul li a {
+    color: $menuTextColor;
+    font-size: 17px;
+}
+
+.navigationSlider .slidingNav ul li.siteNavItemActive a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive a {
+    color: $styleColor;
+}
+
+.navigationSlider .slidingNav ul li a:hover {
+    color: $hoverTextColor;
+}
+
+.homeContainer {
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100% ), radial-gradient( at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120% ) #989898;
+    background-blend-mode: multiply, multiply;
+    background-image: linear-gradient( to top, #7f8288 0%, #7f93bb 100%, #ffffff 100%, #ffffff 100% );
+    text-align: left;
+}
+
+.projectTitle {
+    font-size: 44px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.projectTitle > small{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button {
+    border: 1px solid #24bdc9;
+    color: #24bdc9;
+    background: #fff;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: .5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 6px;
+    border-radius: .3rem;
+}
+
+.button:hover {
+    background: #ffffff;
+    color: $hoverTextColor;
+    text-decoration: none;
+}
+/*blog*/
+
+.postHeaderTitle {
+    border: none;
+    color: #717171;
+    display: block;
+    font-size: 14px;
+    padding: 4px 0;
+    transition: color 0.3s;
+}
+
+.postHeaderTitle a:hover {
+    color: $hoverTextColor;
+}
+
+.toc .toggleNav ul li a:hover,
+.toc .toggleNav ul li a:focus {
+    color: $hoverTextColor;
+}
+
+.toc .toggleNav ul li.navListItemActive a {
+    color: $styleColor;
+}
+
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+    color: #222;
+}
+
+/*docs*/
+
+.onPageNav .toc-headings > li > a.active {
+    color: $styleColor;
+}
+
+.darkBackground{
+    background: #7F93BB; 
+}
+.container.paddingTop {
+    padding-top: 0px;
+}
+.container.paddingBottom {
+    padding-bottom: 0px;
+}
+.mainContainer{
+    padding: 0px;
+}
+.column.first.right{
+    padding-top: 32px;
+}
+.promoSection .promoRow .pluginRowBlock {
+    justify-content: left;
+}
+.promoSection .promoRow .pluginRowBlock .button{
+    font-weight: 600;
+}
+.learnMoreButton{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 24px;
+    color: rgba(255, 255, 255, 0.7)!important;
+}
+.promoSection .promoRow .pluginRowBlock a{
+    color: #797575;
+}
+
+a.learnMoreButton:hover{
+    color: rgb(127, 147, 187)!important;
+}
+.promoSection .promoRow .pluginRowBlock a:hover{
+    color: #7F93BB;
+}
+.productShowcaseSection span {
+    font-size: 23px;
+    color: #4c4c4c;
+    font-weight: 600;
+}
+.socialLinks{
+    display: flex;
+    flex-direction: row;
+}
+.socialLinks a img{
+    width: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+a{
+    color: rgb(127, 147, 187)
+}
+.toc .toggleNav ul li.navListItemActive a{
+    color: rgb(127, 147, 187)
+}
+.button {
+    color: rgb(127, 147, 187)
+    
+}
+.navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a {
+    color: rgb(127, 147, 187)
+}
