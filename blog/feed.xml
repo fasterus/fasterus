@@ -4,7 +4,7 @@
         <title>Fasterus Blog</title>
         <link>https://fasterus.org/blog</link>
         <description>The best place to stay up-to-date with the latest Fasterus news and events.</description>
-        <lastBuildDate>Fri, 21 Feb 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Mar 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://fasterus.org/blog</link>
         </image>
         <copyright>Copyright © 2020 Fasterus</copyright>
+        <item>
+            <title><![CDATA[What's new]]></title>
+            <link>https://fasterus.org/blog/2020/03/07/whats-new.html</link>
+            <guid>https://fasterus.org/blog/2020/03/07/whats-new.html</guid>
+            <pubDate>Sat, 07 Mar 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>The last two weeks were tough for us. We stabilized our backend service and finished all the rest tasks. During work, we found little bugs and inaccuracies, which successfully fixed. Now we almost ready to publish binary executable files of our proje...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[First step]]></title>
             <link>https://fasterus.org/blog/2020/02/21/first-step.html</link>
